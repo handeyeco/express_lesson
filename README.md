@@ -3,6 +3,10 @@
 
 ##Commits
 
+###Setup basic Express server
+
+A basic Express server with logging middleware.
+
 ###Setup basic server
 
 A very basic Node server with very basic routing.
