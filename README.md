@@ -3,6 +3,14 @@
 
 ##Commits
 
+###Finish Tutorial
+
+Touch on things like views and templating.
+
+> views_server.js
+
+Express is pretty dope.
+
 ###Add server with Express routing
 
 Going over `app.all` and `app.get` as well as routing with params.
