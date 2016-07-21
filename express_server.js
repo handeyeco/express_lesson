@@ -1,14 +1,12 @@
 var express = require('express');
+var logger = require('morgan');
 var http = require('http');
 
 // Build app
 var app = express();
 
 //Logging middleware
-app.use(function(req, res, next) {
-  console.log("In comes a " + req.method + " to " + req.url);
-  next();
-});
+app.use(logger());
 
 //Write middleware
 app.use(function(req, res) {
